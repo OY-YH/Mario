@@ -59,17 +59,22 @@ SceneBase {
   }
 
   // background
-  Rectangle {
-    id: background
+//  Rectangle {
+//    id: background
 
-    anchors.fill: parent.gameWindowAnchorItem
+//    anchors.fill: parent.gameWindowAnchorItem
 
-    gradient: Gradient {
-      GradientStop { position: 0.0; color: "#4595e6" }
-      GradientStop { position: 0.9; color: "#80bfff" }
-      GradientStop { position: 0.95; color: "#009900" }
-      GradientStop { position: 1.0; color: "#804c00" }
-    }
+//    gradient: Gradient {
+//      GradientStop { position: 0.0; color: "#4595e6" }
+//      GradientStop { position: 0.9; color: "#80bfff" }
+//      GradientStop { position: 0.95; color: "#009900" }
+//      GradientStop { position: 1.0; color: "#804c00" }
+//    }
+//  }
+  Image {
+      id: background
+      source: "../../assets/backgroundImage/levelBackground.png"
+      anchors.fill: parent.gameWindowAnchorItem
   }
 
   //menubar created download
@@ -104,6 +109,7 @@ SceneBase {
         screenText: "Demos"
 
         width: 80
+
 
         // this button is selected if the state is demoLevels,it will display on shadow
         isSelected: levelScene.state == "demoLevels"
