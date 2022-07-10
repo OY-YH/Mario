@@ -2,16 +2,19 @@
 制造者式闯关游戏
 ## 目录
 1. 项目简介
-2. 游戏背景
-3. 开发环境
-4. 操作及使用说明
-5. 目录结构
-6. 关于作者
-7. 更新链接
-8. 历史版本
+2. 设计思路
+3. 游戏背景
+4. 开发环境
+5. 操作及使用说明
+6. 目录结构
+7. 关于作者
+8. 更新链接
+9. 历史版本
 ### 1. 项目简介
 该游戏以《超级马里奥》为原型，在此背景下进行开发：游玩关卡以及创建属于自己的关卡
-### 2. 游戏背景
+### 2. 设计思路
+超级马里奥是一款经典游戏，为了致敬经典，又想紧跟时代潮流，并且在superTux和Simple Platformer两个项目上获得了灵感，所以在此基础上进行开发。
+### 3. 游戏背景
 游戏关卡共有四关为基础，三关的背景环环相扣，一步步通往太空。
 - 第一关：在地面上，寻找通往太空的通道。  
  ![第一关图片说明](https://github.com/OY-YH/Mario/blob/main/level01.jpg)
@@ -19,12 +22,12 @@
  ![第二关图片说明](https://github.com/OY-YH/Mario/blob/main/level02.jpg)
 - 第三关：在太空遨游，玩家的重力感应有所变化。  
  ![第三关图片说明](https://github.com/OY-YH/Mario/blob/main/Level03.jpg)
-### 3. 开发环境
+### 4. 开发环境
 - 操作系统：Linux
 - 开发工具：Qt Creator for Felgo
 - 编程语言：Qt qml 以及 javascript
 - 代码托管平台：GitHub
-### 4. 操作及使用说明
+### 5. 操作及使用说明
 #### 操作说明
 使用键盘右下角的上键可以实现对mario的跳跃控制，连续按上键两次可以让mario跳的更高，左右键可以实现对mario的左右方向控制。
 #### 使用说明
@@ -35,7 +38,7 @@
 - 星星：角色进入无敌形态，持续一段时间后消失
 - 移动蘑菇，地刺以及球刺：增加游戏难度，使用户有更好的游戏体验
 - 城堡：通关
-### 5. 目录结构
+### 6. 目录结构
 ├── android <br>
 │   ├── AndroidManifest.xml  
 │   ├── build.gradle  
@@ -412,13 +415,13 @@
 ├── qrc_resources_user.cpp  
 ├── qrc_resources_user.o  
 └── resources.qrc  
-### 6. 关于作者
+### 7. 关于作者
 由三名成员共同完成
 - 何露希 2020051615069
 - 欧阳熠华 2020051615006
 - 刘家希 2020051615110
-### 7. 更新链接
+### 8. 更新链接
 [Mario更新](https://github.com/OY-YH/Mario)
-### 8. 历史版本
+### 9. 历史版本
 [Mario-1.0](https://github.com/OY-YH/Mario/blob/Historical-version/mario%20(5).zip)  
 [Mario-1.1](https://github.com/OY-YH/Mario/blob/mario-level/mario%20(1).zip)
